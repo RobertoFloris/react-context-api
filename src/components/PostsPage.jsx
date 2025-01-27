@@ -4,7 +4,7 @@ import PostsList from "./PostsList"
 
 const PostsPage = () => {
 
-  const [posts, fetchPosts] = useGlobalContext()
+  const { posts, fetchPosts } = useGlobalContext()
 
   useEffect(() => {
     fetchPosts()
