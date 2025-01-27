@@ -1,3 +1,4 @@
+import { GlobalProvider } from "./context/GlobalContext"
 
 const App = () => {
   return (
